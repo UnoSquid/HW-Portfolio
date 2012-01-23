@@ -1,0 +1,15 @@
+Get your portfolio base set up!
+
+- Fork this repo.
+
+- Break out the different style sections from style.css into individual CSS files. You should end up with base.css, common.css, 320.css, 480.css, 768.css, and 1140.css.
+
+- Get rid of the orange theme and replace with one of your choosing (can just be black/white for now if you're feeling uninspired).
+
+- Add personal-type links to the header nav. Some combination of twitter, Tumblr, Facebook (*shudder*), contact, about, etc. 
+
+- Add a nav to the #main div. This nav should hold links to your portfolio pieces (which we'll be building out with future assignments). You'll probably need/want to shrink the main article and aside to fit this in.
+
+- Add a small profile picture in the footer.
+
+- Repeat header links in the footer.
