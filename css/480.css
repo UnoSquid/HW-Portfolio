@@ -13,20 +13,44 @@ nav a{
 	padding: 20px 2%;
 	margin-bottom: 0;
 	
-	background:#358d67;
-	color:white;
+	background: #358d67;
+	color: white;
+	
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#main aside{
+	color: white;
+	padding: 0px 5% 10px;
+	display: none;
 }
 
 nav a:hover, nav a:visited{
-	color:white;
+	color: white;
 }
 
 nav a:hover{
-	text-decoration:underline;
+	text-decoration: underline;
 }
 	
 nav li: first-child a{ margin-left:0;  }
 nav li: last-child  a{ margin-right:0; }
+
+footer ul li{
+	display: inline;
+	color: white;
+}
+
+footer a:hover, footer a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
 	
 /* ========================
     INTERMEDIATE: IE Fixes

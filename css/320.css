@@ -6,24 +6,24 @@ Taken from the original css file.*/
    ============== */
 
 nav a{
-	display:block;
-	margin-bottom:10px;
-	padding:15px 0;
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px 0;
 
-	background:#358d67;
-	color:white;
+	background: #358d67;
+	color: white;
 
-	text-align:center;
-	text-decoration:none;
-	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 nav a:hover, nav a:visited{
-	color:white;
+	color: white;
 }
 
 nav a:hover{
-	text-decoration:underline;
+	text-decoration: underline;
 }
 
 /* ==============
@@ -31,20 +31,34 @@ nav a:hover{
    ============== */
 
 #main{
-	padding:30px 0;
+	padding: 30px 0;
 }
 
 #main article h1{
-	font-size:2em;
+	font-size: 2em;
 }
 
 #main aside{
-	color:white;
-	padding:0px 5% 10px;
-	display: hidden;
+	color: white;
+	padding: 0px 5% 10px;
+	display: none;
 }
 
 #footer-container footer{
-	color:white;
-	padding:20px 0;
+	color: white;
+	padding: 20px 0;
+}
+
+footer ul li{
+	display: inline;
+	color: white;
+}
+
+footer a:hover, footer a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
 }

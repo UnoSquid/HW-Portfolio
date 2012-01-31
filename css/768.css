@@ -6,12 +6,14 @@ Taken from the original css file.*/
     WIDE: CSS3 Effects
    ==================== */
 
+/* //not sure if want
 #header-container, #main nav,
 #main aside{
 	-webkit-box-shadow: 0 5px 10px #aaa;
 	-moz-box-shadow: 0 5px 10px #aaa;
 	box-shadow: 0 5px 10px #aaa;
 }
+*/
 
 /* ============
     WIDE: Menu
@@ -37,5 +39,12 @@ nav{
 	
 #main aside{
 	float: none;
+	background-color: #358d67;
+	padding: 5px;
+	display: block;
 }
 
+#main nav{
+	background-color: #3db781;
+	padding: 5px;
+}
