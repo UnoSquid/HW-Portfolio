@@ -1,0 +1,41 @@
+/* Chopped Up CSS: 768
+Taken from the original css file.*/
+
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+#header-container, #main nav,
+#main aside{
+	-webkit-box-shadow: 0 5px 10px #aaa;
+	-moz-box-shadow: 0 5px 10px #aaa;
+	box-shadow: 0 5px 10px #aaa;
+}
+
+/* ============
+    WIDE: Menu
+   ============ */
+	
+#title{
+	float: left;
+}
+
+nav{
+	float: right;
+	width: 38%;
+}
+
+/* ============
+    WIDE: Main
+   ============ */
+
+#main article{
+	float: left;
+	width: 57%;
+}
+	
+#main aside{
+	float: none;
+}
+

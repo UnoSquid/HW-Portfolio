@@ -1,0 +1,44 @@
+/* Chopped Up CSS: 480 
+Taken from the original css file.*/
+
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+	
+nav a{
+	float: left;
+	width: 17%;
+	margin: 0 1.7%;
+	padding: 20px 2%;
+	margin-bottom: 0;
+	
+	background:#358d67;
+	color:white;
+}
+
+nav a:hover, nav a:visited{
+	color:white;
+}
+
+nav a:hover{
+	text-decoration:underline;
+}
+	
+nav li: first-child a{ margin-left:0;  }
+nav li: last-child  a{ margin-right:0; }
+	
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+/*commented out as it was creating unwanted behavior*/
+/*nav ul li{
+	display: inline;
+}*/
+	
+.oldie nav a{
+	margin: 0 0.7%;		
+}
+
+
